@@ -1,0 +1,19 @@
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.square.X {
+  background-color: #ffcccc;
+}
+
+.square.O {
+  background-color: #cce5ff;
+}
